@@ -1,4 +1,5 @@
 let minimized = false;
+let docked = false;
 let windowcheck = $(".application");
 
 function handleClick(event) {
@@ -56,7 +57,6 @@ function handlewindow(type) {
 function checkforwindow() {
   if (windowcheck.hasClass("aboutme-window")) {
     let draggable = document.getElementsByClassName("aboutme-window")[0];
-    console.log(draggable);
     let offsetX,
       offsetY,
       isDragging = false;
@@ -79,5 +79,18 @@ function checkforwindow() {
     });
   }
 }
+function appdock() {
+  if (minimized) {
+    let app_dock = $(".app_dock");
+    if (!docked) {
+      app_dock.removeAttr("id");
+      app_dock.append(
+        `<div class='app-icon' onclick='aboutme();'><img src='assets/images/pfp.png' /></div>`
+      );
+    }
+    docked = true;
+  }
+}
 
+setInterval(appdock, 100);
 setInterval(checkforwindow, 100);
