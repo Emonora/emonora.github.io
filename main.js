@@ -48,9 +48,12 @@ function handlewindow(type) {
   $window.hide();
   if (type === "minimize") {
     minimized = true;
-  } else {
+  } else if (type === "close") {
+    minimized = false;
     $window.removeClass("aboutme-window");
     $window.empty();
+  } else {
+    alert("Invalid input type for handlewindow function. Error:HWE0");
   }
 }
 
@@ -89,6 +92,10 @@ function appdock() {
       );
     }
     docked = true;
+  } else {
+    let app_dock = $(".app_dock");
+    app_dock.attr("id", "hidden");
+    app_dock.empty();
   }
 }
 
