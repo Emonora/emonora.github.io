@@ -18,13 +18,13 @@ function aboutme() {
       window.addClass("aboutme-window");
     }
     window.append(
-      "<div class='titlebar'><img class='minimize' onclick='handlewindow('minimize');' src='/assets/images/minimize.png' /> <img class='X' onclick='handlewindow('close');' src='/assets/images/X.png' /></div><h1>About Me</h1><p>Hai! I'm Emonora! I'm very interested in IT. My interests are in the following categories: Cybersecurity, and Software & Web Development. I have an interest in securing linux systems, and I'm also interested in being a pen tester. Recently, I competed in Cyber Patriot 16, and brought my team to the semis! I'm also good at writing, and I'm trying to improve my drawing skills! (Eventually I'll take writing commissions, but I'm busy at the moment). That's All! You can look around the site for more!! :3</p>"
+      "<div class='titlebar'><img class='minimize' onclick='handlewindow('minimize');' src='assets/images/minimize.png' /> <img class='X' onclick='handlewindow('close');' src='assets/images/X.png' /></div><h1>About Me</h1><p>Hai! I'm Emonora! I'm very interested in IT. My interests are in the following categories: Cybersecurity, and Software & Web Development. I have an interest in securing linux systems, and I'm also interested in being a pen tester. Recently, I competed in Cyber Patriot 16, and brought my team to the semis! I'm also good at writing, and I'm trying to improve my drawing skills! (Eventually I'll take writing commissions, but I'm busy at the moment). That's All! You can look around the site for more!! :3</p>"
     );
     window.show();
   } else {
     window.addClass("aboutme-window");
     window.append(
-      "<div class='titlebar'><img class='minimize' onclick='handlewindow('minimize');' src='/assets/images/minimize.png' /> <img class='X' onclick='handwindow('close');' src='/assets/images/X.png' /></div><h1>About Me</h1><p>Hai! I'm Emonora! I'm very interested in IT. My interests are in the following categories: Cybersecurity, and Software & Web Development. I have an interest in securing linux systems, and I'm also interested in being a pen tester. Recently, I competed in Cyber Patriot 16, and brought my team to the semis! I'm also good at writing, and I'm trying to improve my drawing skills! (Eventually I'll take writing commissions, but I'm busy at the moment). That's All! You can look around the site for more!! :3</p>"
+      "<div class='titlebar'><img class='minimize' onclick='handlewindow('minimize');' src='assets/images/minimize.png' /> <img class='X' onclick='handwindow('close');' src='assets/images/X.png' /></div><h1>About Me</h1><p>Hai! I'm Emonora! I'm very interested in IT. My interests are in the following categories: Cybersecurity, and Software & Web Development. I have an interest in securing linux systems, and I'm also interested in being a pen tester. Recently, I competed in Cyber Patriot 16, and brought my team to the semis! I'm also good at writing, and I'm trying to improve my drawing skills! (Eventually I'll take writing commissions, but I'm busy at the moment). That's All! You can look around the site for more!! :3</p>"
     );
     window.show();
   }
