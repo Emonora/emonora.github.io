@@ -90,6 +90,9 @@ body {
   margin-top: -6px;
   cursor: pointer;
 }
+.minimize {
+  padding-left: 0.7px;
+}
 
 .about-me img {
   border: #000000 solid 2px;

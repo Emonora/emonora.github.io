@@ -99,5 +99,5 @@ function appdock() {
   }
 }
 
-setInterval(appdock, 100);
+setInterval(appdock, 1);
 setInterval(checkforwindow, 100);
